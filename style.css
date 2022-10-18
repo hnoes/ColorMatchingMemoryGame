@@ -1,0 +1,63 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+body {
+  height: 100vh;
+  background: rgb(239, 210, 215);
+  text-align: center;
+}
+
+.row {
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.card.done {
+  cursor: default;
+}
+
+.card.done:hover {
+  cursor: default;
+  box-shadow: none;
+}
+
+.card:hover{
+  box-shadow: inset 0px 0px 0px 5px rgb(229, 167, 177);
+  box-sizing: border-box;
+}
+
+/* .pink { 
+  background-color: pink;
+}
+
+.orange{
+  background-color: orange;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.magenta{
+  background-color: magenta;
+}
+
+.cyan{
+  background-color: cyan;
+} */
+
+.color-hidden {
+  background-color: rgb(189, 184, 184);
+}
